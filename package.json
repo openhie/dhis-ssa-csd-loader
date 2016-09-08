@@ -1,6 +1,6 @@
 {
   "name": "dhis-ssa-csd-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "openinfoman-dhis ---------------- This web application make use of OpenInfoMan and the DHIS2 adapter.  You can easily install on Ubuntu 14.04 and 15.10 using the following commands   sudo add-apt-repository ppa:openhie/release   sudo apt-get update   sudo apt-get install openinfoman-dhis",
   "main": "index.js",
   "scripts": {

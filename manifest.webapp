@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "InterLinked Registry Interface",
   "description": "Load metadata from an InterLinked Registry (e.g. CSD InfoManager)",
   "launch_path": "index.html",
