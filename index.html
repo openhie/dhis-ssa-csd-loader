@@ -179,8 +179,25 @@ $(function() {
 		<option value='1'>Yes</option>
 	      </select>
               <br/>
+	      
+	      <p>Retrieve changes to metadata updates since</p>
+	      <select name='alldata'>
+		<option value='1'>All Data</option>
+		<option value='0'>Only Changes Since:</option>
+	      </select>
+              <span class='lastmodifiedcontainer'>
+                <input type="text" value="" name="lastmodified"/>
+              </span>
 
-              <p>Load the selected organisation unit into DHIS2</p>
+
+	      <p>ZIP</p>
+	      <select name='zip'>
+		<option value='0'>Do not compress data</option>
+		<option value='1'>Compress data with zip</option>
+	      </select>
+
+
+              <p>Load the selected organisation units into DHIS2</p>
 	      <input type='submit' value='Import'/>
 	      <p class='csdstatus' style='background-color: #eee; border: 1px solid #bbb; border-radius: 3px;	opacity: 0.85;    padding: 6px;'/>
 	    </form>
